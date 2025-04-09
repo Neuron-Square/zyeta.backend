@@ -1,4 +1,4 @@
-# 🚀 Zyeta: The AI Agent & Tool Ecosystem
+# 🚀 Zyeta.io - Agentic Ecosystem
 
 Zyeta is a powerful platform that empowers developers to create, deploy and monetize AI agents and tools. Our ecosystem connects:
 
