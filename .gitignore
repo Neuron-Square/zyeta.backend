@@ -94,6 +94,7 @@ ipython_config.py
 *.swp
 *.bak
 *.tmp
+prompt.txt
 
 # macOS
 .DS_Store
@@ -135,6 +136,7 @@ dmypy.json
 .pyre/
 .pytype/
 .ruff_cache/
+**/.vscode/
 
 # Logs and temporary files
 *.log
@@ -175,3 +177,8 @@ junk/
 # For pgAdmin
 *pgadmin*
 servers.json
+
+# For agno-sample-agent
+input.json
+agno-sample-agent/
+src/servers/my_agent/
