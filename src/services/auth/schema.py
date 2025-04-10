@@ -50,3 +50,14 @@ class TokenData(BaseModel):
   """Token data schema."""
 
   user_id: UUID
+
+
+class PasswordResetRequest(BaseModel):
+    """Password reset request schema."""
+    email: EmailStr
+
+
+class PasswordResetToken(BaseModel):
+    """Password reset token schema."""
+    new_password: str = Field(..., min_length=8)
+    confirm_password: str = Field(..., min_length=8)
